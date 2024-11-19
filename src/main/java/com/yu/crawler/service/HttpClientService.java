@@ -1,4 +1,4 @@
-package com.yu.crawler.controller.service;
+package com.yu.crawler.service;
 
 public interface HttpClientService {
     String getHtml(String url);

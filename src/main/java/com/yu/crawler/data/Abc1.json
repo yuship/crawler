@@ -1,0 +1,30 @@
+{
+  "level": {
+    "urls": "#index > div > div > div:nth-child(2) > div:nth-child(1) > a",
+    "link": "https://ssr1.scrape.center/",
+    "content": {
+      "序号": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/a/h2",
+      "摘要": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/div[4]/p"
+    },
+    "level": {
+      "urls": "#index > div:nth-child(1) > div.el-col.el-col-18.el-col-offset-3 > div:nth-child(1) > div > div > div.el-col.el-col-24.el-col-xs-8.el-col-sm-6.el-col-md-4 > a > img",
+      "content": {
+        "标题": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/a/h2",
+        "上映时间": "//*[@id=\"index\"]/div[1]/div[1]/div[1]/div/div/div[2]/div[3]/span"
+      },
+      "level": {
+        "urls": "#header > div > div > div > a > img",
+        "content": {
+          "地区": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/a/h2",
+          "简介": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/div[4]/p"
+        },
+        "level": {
+          "content": {
+            "地区": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/a/h2",
+            "简介": "//*[@id='detail']/div[1]/div/div/div[1]/div/div[2]/div[4]/p"
+          }
+        }
+      }
+    }
+  }
+}

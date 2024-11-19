@@ -1,13 +1,13 @@
 package com.yu.crawler.controller;
 
 
-import com.yu.crawler.controller.service.HttpClientService;
+import com.yu.crawler.service.HttpClientService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Controller
-@RestController
+@RestController("testController")
 public class Test {
 
     HttpClientService httpClientService;

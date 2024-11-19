@@ -1,2 +1,8 @@
 server:
   port: 80
+
+
+logging:
+  level:
+    org.apache.http: INFO
+    root: INFO
